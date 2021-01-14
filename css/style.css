@@ -12,7 +12,7 @@ body {
     height: 100%;
     z-index: -1;
     background-size: cover;
-    background: linear-gradient(to bottom, #66ccff 0%, #ccffcc 100%);
+    background: linear-gradient(to bottom, #000066 0%, #66ccff 100%);
 }
 
 div {
@@ -20,7 +20,7 @@ div {
 }
 
 h1, p, a {
-    color: #000000;
+    color: #ffffff;
 }
 
 h1 {
@@ -90,14 +90,17 @@ a:hover {
 .icon {
     position: center;
     margin-top: 60px;
+    margin-bottom: 60px;
     padding-right: 25px;
     float: left;
     border-bottom: 0px none #000;
+    
 }
 
 .icon img {
     margin: 0px;
     padding: 5px;
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 99%;
 }
